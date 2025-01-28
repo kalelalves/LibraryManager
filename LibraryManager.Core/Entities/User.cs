@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManager.Core.Entities
 {
-    public class User : DevFreela.Core.Entities.BaseEntity
+    public class User : BaseEntity
     {
         string Name { get; set; }
         string Email { get; set; }

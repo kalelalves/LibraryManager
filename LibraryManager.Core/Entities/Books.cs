@@ -1,4 +1,4 @@
-﻿using DevFreela.Core.Entities;
+﻿
 
 namespace LibraryManager.Core.Entities
 {
