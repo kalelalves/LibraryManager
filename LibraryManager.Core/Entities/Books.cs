@@ -11,6 +11,7 @@ namespace LibraryManager.Core.Entities
         string Publisher { get; set; }
         string ISBN { get; set; }
 
+        Category CategoryId { get; set; }
 
 
 
