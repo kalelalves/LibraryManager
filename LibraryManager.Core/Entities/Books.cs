@@ -9,10 +9,10 @@ namespace LibraryManager.Core.Entities
         string Author { get; set; }
 
         string Publisher { get; set; }
+        DateOnly Publication { get; set; }
         string ISBN { get; set; }
 
         Category CategoryId { get; set; }
-
 
 
     }
