@@ -8,6 +8,6 @@ namespace LibraryManager.Core.Entities
 {
     public class Category : BaseEntity
     {
-        string CategoryName { get; set; }
+        public string CategoryName { get; set; }
     }
 }

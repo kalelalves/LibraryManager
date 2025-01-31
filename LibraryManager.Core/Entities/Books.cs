@@ -5,14 +5,14 @@ namespace LibraryManager.Core.Entities
     public class Book : BaseEntity
 
     {
-        string Title { get; set; }
-        string Author { get; set; }
+        public  string Title { get; set; }
+        public string Author { get; set; }
 
-        string Publisher { get; set; }
-        DateOnly Publication { get; set; }
-        string ISBN { get; set; }
+        public string Publisher { get; set; }
+        public DateOnly Publication { get; set; }
+        public string ISBN { get; set; }
 
-        Category CategoryId { get; set; }
+        public Category CategoryId { get; set; }
 
 
         public Book(string title, string author, string publisher, DateOnly publication, string isbn, Category categoryId)

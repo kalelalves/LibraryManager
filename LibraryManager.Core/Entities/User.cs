@@ -8,9 +8,9 @@ namespace LibraryManager.Core.Entities
 {
     public class User : BaseEntity
     {
-        string Name { get; set; }
-        string Email { get; set; }
-        DateTime BirthDate { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public DateTime BirthDate { get; set; }
 
     }
 }

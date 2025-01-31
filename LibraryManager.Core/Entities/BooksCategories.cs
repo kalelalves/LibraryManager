@@ -8,7 +8,7 @@ namespace LibraryManager.Core.Entities
 {
     public class BooksCategories
     {
-        Book BookId { get; set; }
-        Category CategoryId { get; set; }   
+        public Book BookId { get; set; }
+        public Category CategoryId { get; set; }   
     }
 }
