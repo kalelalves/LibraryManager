@@ -21,6 +21,5 @@ namespace LibraryManager.Application.Models
 
 
 
-        \bl
     }
 }

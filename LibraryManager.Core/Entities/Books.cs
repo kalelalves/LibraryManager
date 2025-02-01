@@ -12,10 +12,11 @@ namespace LibraryManager.Core.Entities
         public DateOnly Publication { get; set; }
         public string ISBN { get; set; }
 
-        public Category CategoryId { get; set; }
+        public int CategoryId { get; set; }
 
+        public List<BooksCategories> Categories { get; set; } 
 
-        public Book(string title, string author, string publisher, DateOnly publication, string isbn, Category categoryId)
+        public Book(string title, string author, string publisher, DateOnly publication, string isbn, int categoryId)
             :base()
         {
             Title = title;

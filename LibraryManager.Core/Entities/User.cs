@@ -12,5 +12,7 @@ namespace LibraryManager.Core.Entities
         public string Email { get; set; }
         public DateTime BirthDate { get; set; }
 
+        public List<Loan> Loans { get; set; }
+
     }
 }

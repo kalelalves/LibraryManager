@@ -8,10 +8,13 @@ namespace LibraryManager.Core.Entities
 {
     public class Loan:BaseEntity
     {
-        User UserId { get; set; }
+        public int UserId { get; set; } 
+        public int BookId { get; set; }
+        public DateTime LoanDate { get; set; }
+        public DateTime? ReturnDate { get; set; } 
 
-        Book BookId { get; set; }
-        DateTime LoanDate { get; set; }
-        DateTime ReturnDate { get; set; }
+        // Navegação
+        public User User { get; set; }
+        public Book Book { get; set; }
     }
 }
