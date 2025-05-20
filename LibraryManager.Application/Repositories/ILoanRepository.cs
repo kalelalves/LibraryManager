@@ -2,9 +2,9 @@ using LibraryManager.Core.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace LibraryManager.Application.Services
+namespace LibraryManager.Application.Repositories
 {
-    public interface ILoanService
+    public interface ILoanRepository
     {
         Task<IEnumerable<Loan>> GetLoansAsync();
         Task<Loan> GetLoanByIdAsync(int id);

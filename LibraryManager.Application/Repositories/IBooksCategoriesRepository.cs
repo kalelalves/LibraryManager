@@ -2,9 +2,9 @@ using LibraryManager.Core.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace LibraryManager.Application.Services
+namespace LibraryManager.Application.Repositories
 {
-    public interface IBooksCategoriesService
+    public interface IBooksCategoriesRepository
     {
         Task<IEnumerable<BooksCategories>> GetBooksCategoriesAsync();
         Task<BooksCategories> GetBooksCategoriesByIdAsync(int bookId, int categoryId);

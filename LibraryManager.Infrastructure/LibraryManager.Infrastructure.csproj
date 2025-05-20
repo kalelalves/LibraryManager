@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LibraryManager.Application\LibraryManager.Application.csproj" />
     <ProjectReference Include="..\LibraryManager.Core\LibraryManager.Core.csproj" />
   </ItemGroup>
 

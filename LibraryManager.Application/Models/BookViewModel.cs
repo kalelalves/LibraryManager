@@ -18,7 +18,7 @@ namespace LibraryManager.Application.Models
 
         Category CategoryId { get; set; }
 
-        public Book ToEntity()=> new( Title, Author, Publisher, Publication, ISBN, CategoryId);  
+        public Book ToEntity()=> new( Title, Author, Publisher, Publication, ISBN);  
 
     }
 }

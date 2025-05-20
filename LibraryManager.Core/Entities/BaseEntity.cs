@@ -1,16 +1,19 @@
-﻿namespace LibraryManager.Core.Entities
+﻿using System;
+
+namespace LibraryManager.Core.Entities
 {
     public abstract class BaseEntity
     {
         protected BaseEntity()
         {
-            CreatedOn = DateTime.Now;
+            CreatedAt = DateTime.Now;
             IsDeleted = false;
         }
 
-        public int Id { get; private set; }
-        public DateTime CreatedOn { get; private set; }
-        public bool IsDeleted { get; private set; }
+        public int Id { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsDeleted { get; set; }
 
         public void SetAsDeleted()
         {

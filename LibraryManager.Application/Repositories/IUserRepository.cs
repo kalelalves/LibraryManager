@@ -2,9 +2,9 @@ using LibraryManager.Core.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace LibraryManager.Application.Services
+namespace LibraryManager.Application.Repositories
 {
-    public interface IUserService
+    public interface IUserRepository
     {
         Task<IEnumerable<User>> GetUsersAsync();
         Task<User> GetUserByIdAsync(int id);
