@@ -118,7 +118,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.txt) par
 
 ## 👥 Autores
 
-- Seu Nome - [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
+- kalel.alves@outlook.com
 
 ## 🙏 Agradecimentos
 
